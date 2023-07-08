@@ -1,0 +1,19 @@
+
+
+<form id="login-form" action="/login" method="POST">
+  <div>로그인</div>
+  <div>
+    <label for="id">아이디</label>
+    <input type="text" id="id" name="id" required />
+  </div>
+  <div>
+    <label for="password">패스워드</label>
+    <input type="password" id="password" name="password" required />
+  </div>
+  <div>
+    <button type="submit">로그인</button>
+  </div>
+  <div>
+    <a href="#/signup">회원가입</a>
+  </div>
+</form>
